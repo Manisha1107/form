@@ -1,0 +1,26 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.register{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(228, 224, 224);
+    
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+#name,#pass,#mail,#dob{
+   display: block;
+   margin-left: 40%;
+
+}
+label{
+
+    text-align: center;
+    margin-left: 20%;
+    
+}
