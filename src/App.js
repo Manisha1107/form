@@ -4,6 +4,7 @@ import Bottom from "./Bottom"
 import Heading from './Heading';
 import Form from './Form' ;
 import './Form.css';
+import './Bottom.css'
 
 function App() {
   return (

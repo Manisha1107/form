@@ -4,7 +4,7 @@ function Form(){
     return(
         <fillup className="Fill">
           <label for="Firstname">Firstname</label>
-         <input type="text" id="name"/>
+          <input type="text" id="name"/>
          <label for="Lastname">Lastname</label>
             <input type="text" id="name"/>
         <label for="Nickname">Nickname</label>

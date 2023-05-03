@@ -1,21 +1,33 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: rgb(221, 216, 216);
+    background-color: rgb(228, 224, 224);
+    font-family: 'Times New Roman', Times, serif;
+}
+.radiobutton{
+    height: 100vh;
+    width: 100%;
 }
 label{
-    font-size: 15px;
-    margin: 15px;
-    font-weight: 400;
+    margin-top: 10px;
+}
+
+#Mobile,#address{
+    display: block;
+   margin-left: 40%;
+}
+#male,#female,#others{
+    display: inline-block;
     
 }
-textarea{
-    margin-top: 10px;
 
-}
 #submit,#reset
 {
-    margin: 5px;
+    display: inline;
+   margin-left: 40%;
+   
 }
+#reset{
+    position: absolute;
+    left: 20%;
+}
+
 

@@ -8,12 +8,12 @@ function Bottom(){
 
             
             <label for="gender">Male</label>
-           
-           
-           <input type="radio" name="gender" id="male"/>
-           <label for="gender">Female</label>
+             <input type="radio" name="gender" id="male"/>
 
-           <input type="radio" name="gender" id="female"/>
+
+           <label for="gender">Female</label>
+             <input type="radio" name="gender" id="female"/>
+
            <label for="gender">Others</label>
             <input type="radio" name="gender" id="others"/><br/>
 
@@ -23,22 +23,13 @@ function Bottom(){
             
             
         <label for='address'> Address</label>
-        <textarea id="address" name="address" row="4" cols="50" placeholder="Enter address"></textarea> <br/>
+        <input type="text" id="address"/> <br/>
 
-        <button type="submit" id="submit">Submit</button>
-        <button type="reset" id="reset">Reset</button>
+        <input type="submit" id="submit"/>
+        <input type="reset" id="reset"/>
 
-
-            
-
-        
-        
+ 
         </div>
-
-
-
-        
-
         </div>
     )
 }
